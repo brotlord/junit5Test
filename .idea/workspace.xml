@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="875cf0e2-354f-41a2-9be5-1f37f1dd115b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/training/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/training/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/training/model/RewardInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/training/service/RewardByConversionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/training/service/RewardByDiscountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/training/service/RewardByGiftService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/training/service/RewardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HelloWorldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test1/RewardByDiscountServiceNestedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test1/RewardByDiscountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/training/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/training/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test2/ProductServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,25 +45,37 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RewardByDiscountServiceNestedTest$SmallOrder">
-    <configuration name="HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProductServiceTest.getNameOfProduct">
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HelloWorldTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="test2.ProductServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductServiceTest.getNameOfProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HelloWorldTest" />
-      <option name="METHOD_NAME" value="firstTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="test2.ProductServiceTest" />
+      <option name="METHOD_NAME" value="getNameOfProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RewardByDiscountServiceNestedTest$SmallOrder" />
+        <item itemvalue="JUnit.ProductServiceTest.getNameOfProduct" />
+        <item itemvalue="JUnit.ProductServiceTest" />
         <item itemvalue="JUnit.RewardByDiscountServiceTest" />
+        <item itemvalue="JUnit.RewardByDiscountServiceNestedTest$SmallOrder" />
         <item itemvalue="JUnit.RewardByDiscountServiceTest.setNeededPoints" />
-        <item itemvalue="JUnit.HelloWorldTest.firstTest" />
-        <item itemvalue="JUnit.HelloWorldTest" />
       </list>
     </recent_temporary>
   </component>
