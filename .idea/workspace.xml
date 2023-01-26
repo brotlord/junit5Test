@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="875cf0e2-354f-41a2-9be5-1f37f1dd115b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/training/dao/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/training/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test2/ProductServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -46,10 +42,24 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "coverage"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ProductServiceTest.getNameOfProduct">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.training.Main" />
+      <module name="junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
@@ -111,29 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RewardByDiscountServiceTest.setNeededPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test1" />
-      <option name="MAIN_CLASS_NAME" value="test1.RewardByDiscountServiceTest" />
-      <option name="METHOD_NAME" value="setNeededPoints" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ProductServiceTest.getNameOfProduct" />
         <item itemvalue="JUnit.ProductServiceTest" />
         <item itemvalue="JUnit.RewardByDiscountServiceTest" />
         <item itemvalue="JUnit.RewardByDiscountServiceNestedTest$SmallOrder" />
-        <item itemvalue="JUnit.RewardByDiscountServiceTest.setNeededPoints" />
       </list>
     </recent_temporary>
   </component>
